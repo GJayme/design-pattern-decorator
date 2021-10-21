@@ -3,7 +3,7 @@ package domain;
 public class Expresso extends Beverage{
 
     public Expresso() {
-        description = "domain.Expresso";
+        description = "Expresso";
     }
 
     @Override
