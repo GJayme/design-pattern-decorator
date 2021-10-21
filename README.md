@@ -1,6 +1,6 @@
 # Problema:
 
-Imaginemos que uma cafeteria queria implementar um sistema para ter o controle dos preços de suas bebidas.
+Uma cafeteria queria implementar um sistema para ter o controle dos preços de suas bebidas.
 
 Entre as bebidas temos: Café, Descafeinado, Espresso e por ai vai. Além disso podemos acrescentar adicionais em nossas bebidas como Creme, chocolate, e outras coisas.
 
@@ -12,7 +12,7 @@ Como você iria implementar esse sistema?
 
 E foi partindo dessa problemática que surgiu o padrão **Decorator**, ele anexa responsabilidades adicionais a um objeto dinamicamente. Os **Decoradores** fornecem uma alternativa flexível de subclasse para estender a funcionalidade.
 
-Para tentar ficar um pouco mais claro, image o Decorator como roupas que vestimos. Sem casaco passamos frio, para resolver isso vista um casaco, se chover use capa de chuva.
+Para tentar ficar um pouco mais claro, pense no Decorator como roupas que vestimos. Sem casaco passamos frio, para resolver isso vista um casaco, se chover use capa de chuva.
 
 ![image](https://user-images.githubusercontent.com/47933829/138320827-1d04f845-0f2a-4c91-95b9-b135afc83daf.png)
 
