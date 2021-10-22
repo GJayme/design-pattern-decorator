@@ -10,7 +10,7 @@ Como você iria implementar esse sistema?
 
 É natural que a princípio tentaríamos criar uma classe Abstrata de bebida e a partir dela criar nossas classes concretas, como por exemplo Espresso com creme e chocolate. Porém se fomos por esse caminho acabaríamos criando muitas classes concretas e para dar manutenção em todas elas seria impossível, além de ferir um dos princípios mais importantes dentro da OO, **O princípio do aberto-fechado** (aberto para novas extensões, mas fechado para modificar código existentes).
 
-E foi partindo dessa problemática que surgiu o padrão **Decorator**, ele anexa responsabilidades adicionais a um objeto dinamicamente. Os **Decoradores** fornecem uma alternativa flexível de subclasse para estender a funcionalidade.
+E foi partindo dessa problemática que surgiu o padrão **Decorator**, um padrão estrutural que anexa responsabilidades adicionais a um objeto dinamicamente. Os **Decoradores** fornecem uma alternativa flexível de subclasse para estender a funcionalidade.
 
 Para tentar ficar um pouco mais claro, pense no Decorator como roupas que vestimos. Sem casaco passamos frio, para resolver isso vista um casaco, se chover use capa de chuva.
 
